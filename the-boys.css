@@ -1,0 +1,233 @@
+/* Genel stiller */
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    position: relative; /* Yeni özellik */
+  }
+  
+  .logo-container img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .logo-container span {
+    margin-left: 100m; /* "Emekboxd" yazısını 1 cm sağa kaydırır */
+    font-size: 20px; /* Yazı boyutunu ayarlar */
+    font-weight: bold; /* Yazıyı kalınlaştırır */
+    color: #fff; /* Yazı rengini ayarlar */
+  }body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #003049;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .logo-container img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .logo-container h1 {
+    margin: 0;
+    font-size: 20px;
+    margin-left: 80px;
+  }
+  
+  header form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  header input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  header button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Ana Karakterler */
+  
+  .karakterler {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .karakterler h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .karakterler ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .karakterler ul li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .karakterler ul li img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .karakterler ul li h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .karakterler ul li p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .filtreleme-alani {
+  background-color: #FDF0D5;
+  padding: 20px;
+  margin-top: 5mm; /* Filtreleme alanını 1,5 cm yukarı taşımak için */
+}
+
+.filtreleme-alani h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.filtreleme-alani ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filtreleme-alani ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.filtreleme-alani ul li a {
+  padding: 10px 15px;
+  border: 1px solid #780000;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+.filtreleme-alani ul li a:hover {
+  background-color: #669BBC;
+}
+  
+  /* Dizi Listesi */
+  
+  .dizi-listesi {
+    margin-top: 20px;
+  }
+  
+  .dizi-listesi h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .dizi-listesi ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .dizi-listesi ul li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dizi-listesi ul li a {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+  
+  }
+  .dizi-listesi ul li img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  } 
+  
+  /* CSS kodu */
+
+.oylama-alani {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.oylama-alani h2 {
+  margin-top: 0;
+}
+
+.oylama-alani input[type="radio"] {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.oylama-alani label {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.oylama-alani button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
